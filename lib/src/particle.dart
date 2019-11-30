@@ -189,7 +189,7 @@ class Particle {
         _mass = randomize(1, 11),
         _location = vmath.Vector2.zero(),
         _acceleration = vmath.Vector2.zero(),
-        _velocity = vmath.Vector2(randomize(-3, 3), randomize(-3, 3)),
+        _velocity = vmath.Vector2(randomize(-30, 30), randomize(-3, 3)),
         _size = size,
         // _size = Size(randomize(20, 30), randomize(10, 15)),
         _aVelocityX = randomize(-0.1, 0.1),
